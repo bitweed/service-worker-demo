@@ -8,6 +8,6 @@ The demo contains a minimal react app for registering service workers to receive
 3. Visit [localhost:4173](localhost:4173) to preview the web page. Press <kbd>F12</kbd> to open developer panel, press the `request for notification permission` button, then accept the prompt that popped out.
 4. Check the Service Worker menu in the developer panel of the Chrome/Firefox browser, you can see the service worker has been installed into the browser. 
 
-![service worker image](./docs/serivce-worker-dev-panel.png)
+![service worker image](./docs/panel.png)
 
 5. Now execute `curl http://localhost:4000/send-notification` to let the dummy backend emit a notification. Then you should be able to receive the notification in the browser. Now even when the browser tab is closed, you will still be able to receive the notification via browser push.
